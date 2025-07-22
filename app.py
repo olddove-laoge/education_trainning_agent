@@ -16,7 +16,10 @@ from utils.data_manager import (
     add_question,
     get_user_questions,
     get_user_documents,
-    save_user_documents
+    save_user_documents,
+    add_favorite_question,
+    get_favorite_questions,
+    delete_favorite_question
 )
 from config import get_all_documents
 import os
@@ -224,6 +227,50 @@ def submit_answer():
     record_usage(session['user_id'], 'student', 'submit_answer')
     analysis = analyze_student_answer(question, answer, session['user_id'])
     return jsonify({"analysis": analysis})
+
+# 学生收藏功能路由
+@app.route('/student/favorite_question', methods=['POST'])
+def favorite_question():
+    if 'user_id' not in session or session['role'] != 'student':
+        return jsonify({"error": "未授权"}), 401
+    
+    question_id = request.json.get('question_id')
+    source = request.json.get('source')
+    question_text = request.json.get('question_text')
+    
+    if not question_id or not source:
+        return jsonify({"error": "缺少问题ID或来源"}), 400
+    
+    record_usage(session['user_id'], 'student', 'favorite_question')
+    favorite = add_favorite_question(
+        session['user_id'], 
+        question_id, 
+        source,
+        question_text
+    )
+    return jsonify(favorite)
+
+@app.route('/student/favorite_questions', methods=['GET'])
+def handle_get_favorite_questions():
+    if 'user_id' not in session or session['role'] != 'student':
+        return jsonify({"error": "未授权"}), 401
+    
+    record_usage(session['user_id'], 'student', 'get_favorite_questions')
+    favorites = get_favorite_questions(session['user_id'])
+    return jsonify({"favorites": favorites})
+
+@app.route('/student/delete_favorite_question', methods=['POST'])
+def handle_delete_favorite_question():
+    if 'user_id' not in session or session['role'] != 'student':
+        return jsonify({"error": "未授权"}), 401
+    
+    favorite_id = request.json.get('favorite_id')
+    if not favorite_id:
+        return jsonify({"error": "缺少收藏ID"}), 400
+    
+    record_usage(session['user_id'], 'student', 'delete_favorite_question')
+    delete_favorite_question(session['user_id'], favorite_id)
+    return jsonify({"status": "success"})
 
 # 管理端路由
 @app.route('/admin/dashboard')

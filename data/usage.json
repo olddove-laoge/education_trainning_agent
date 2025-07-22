@@ -215,6 +215,174 @@
       "role": "teacher",
       "action": "save_course",
       "timestamp": "2025-07-23T01:48:59.520950"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "login",
+      "timestamp": "2025-07-23T02:12:15.013165"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T02:12:15.032584"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T02:50:11.890493"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "login",
+      "timestamp": "2025-07-23T04:58:02.278862"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T04:58:02.301242"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "generate_exam",
+      "timestamp": "2025-07-23T04:58:11.828491"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T04:58:56.094707"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T04:58:59.815851"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T04:59:04.282368"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T04:59:05.236167"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T04:59:06.037305"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T04:59:43.381661"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T04:59:44.761778"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "generate_exam",
+      "timestamp": "2025-07-23T04:59:50.447280"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T05:02:23.988678"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T05:02:27.167265"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T05:02:28.121259"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T05:22:08.422450"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T05:22:08.824624"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "generate_exam",
+      "timestamp": "2025-07-23T05:22:31.565843"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T05:23:17.117852"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T05:24:05.713842"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T05:36:06.811117"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "access_document_manager",
+      "timestamp": "2025-07-23T05:36:14.238193"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T05:58:23.772229"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "logout",
+      "timestamp": "2025-07-23T05:58:31.544974"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "login",
+      "timestamp": "2025-07-23T07:07:01.741600"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T07:07:01.777978"
     }
   ],
   "student_usage": [
@@ -499,6 +667,2634 @@
       "role": "student",
       "action": "generate_practice",
       "timestamp": "2025-07-23T01:47:05.387748"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "login",
+      "timestamp": "2025-07-23T02:10:40.383802"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T02:10:40.468905"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "ask_question",
+      "timestamp": "2025-07-23T02:11:08.302230"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "login",
+      "timestamp": "2025-07-23T02:11:51.342886"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T02:11:51.367073"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "login",
+      "timestamp": "2025-07-23T02:50:21.651145"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T02:50:21.673681"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "ask_question",
+      "timestamp": "2025-07-23T02:50:29.047867"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "generate_practice",
+      "timestamp": "2025-07-23T02:50:37.466079"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T03:03:59.250659"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T03:09:11.061236"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "generate_practice",
+      "timestamp": "2025-07-23T03:09:18.460969"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T03:58:21.373251"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T03:58:22.176090"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "generate_practice",
+      "timestamp": "2025-07-23T03:58:27.743030"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T03:58:30.398373"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T03:58:31.489628"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T03:58:35.602785"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T03:58:37.553193"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T03:58:40.092356"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T03:58:41.225608"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T03:58:42.807488"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T03:58:43.798580"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T03:58:44.154404"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T03:59:08.292301"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T03:59:09.037857"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T03:59:10.088458"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T03:59:11.346008"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T03:59:25.842077"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T03:59:26.442904"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T03:59:29.177101"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T03:59:30.806408"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T03:59:32.131958"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T03:59:33.241012"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T03:59:33.965095"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T03:59:34.182441"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T03:59:44.590284"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T03:59:44.821748"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T04:00:21.599605"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T04:00:23.404477"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T04:00:24.043710"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T04:00:25.084265"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T04:00:25.305564"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T04:00:25.815586"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T04:00:26.407372"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T04:54:10.436289"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T04:54:11.189178"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T04:54:15.016144"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "generate_practice",
+      "timestamp": "2025-07-23T04:54:22.453479"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T04:54:28.919186"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T04:54:47.531284"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T04:54:52.770757"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite",
+      "timestamp": "2025-07-23T04:55:01.188779"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T04:55:01.236830"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T04:55:02.015883"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T04:55:02.147666"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite",
+      "timestamp": "2025-07-23T04:55:09.666865"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T04:55:09.695330"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T04:57:53.018080"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T04:57:53.239669"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "login",
+      "timestamp": "2025-07-23T05:58:38.260601"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T05:58:38.292018"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T05:58:46.727258"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T05:59:11.012219"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:05:34.917540"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:05:35.651431"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:05:38.272647"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:05:49.027879"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:05:50.533922"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:05:50.669500"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:05:53.384646"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:06:09.139830"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:06:09.317749"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:13:20.754953"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T06:13:21.447010"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T06:13:24.773937"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:13:28.690312"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:13:30.611299"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:13:31.393133"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T06:13:31.582267"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:13:33.477818"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:13:34.003346"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:13:34.449837"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T06:13:34.642843"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:13:36.059031"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:13:36.518346"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:13:37.536646"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:13:37.708383"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:13:37.918647"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:13:38.082103"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:13:38.216692"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T06:13:38.404163"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:13:58.665775"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T06:13:58.807775"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:14:00.385171"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:14:01.841540"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:14:02.611174"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:14:02.831702"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:14:04.423570"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:14:04.602277"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:14:04.823516"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:14:10.032610"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:14:11.255927"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:14:11.473162"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:14:12.259725"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:14:13.287217"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:14:16.608557"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:14:16.917794"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T06:14:17.036680"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:14:19.071971"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:14:19.268966"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:14:20.742344"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:14:20.904753"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:14:21.023341"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:14:21.154950"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:14:21.277162"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:14:21.407403"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:14:21.531717"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:14:21.651651"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:14:22.278022"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:14:22.701478"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:14:23.321785"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:14:23.508650"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:14:23.708200"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:14:23.900459"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:14:25.238706"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:14:25.574882"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:14:26.874651"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:14:48.195488"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T06:14:48.314312"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite",
+      "timestamp": "2025-07-23T06:14:51.365946"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T06:14:51.430512"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:14:51.965926"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T06:14:52.070905"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:15:31.508336"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:15:31.786857"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:15:36.321736"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:15:36.508194"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:15:36.682418"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:15:36.877903"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:15:37.247665"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:15:39.942821"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:15:45.173917"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:15:45.344419"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:15:45.565989"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:15:56.598103"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:24:31.203617"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T06:24:31.611948"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:24:33.210666"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:24:34.859131"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:24:35.069468"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:24:35.574274"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T06:24:35.777616"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:24:37.574267"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:24:37.767438"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:24:38.008939"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:24:38.187784"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:24:38.514045"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T06:24:38.728349"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:24:47.562174"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T06:24:47.668296"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:25:29.911630"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T06:25:30.053076"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:25:34.956274"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:25:35.802467"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T06:25:35.913418"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:25:37.677405"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:25:38.089638"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:25:38.392384"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T06:25:38.493775"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:25:40.135849"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:25:40.159183"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T06:25:40.263561"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:25:42.089355"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:25:42.271760"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:25:42.617893"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:25:42.788657"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:25:42.980315"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:25:43.156218"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:25:43.325760"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:25:43.671205"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:25:43.821838"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:25:43.964317"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:25:44.119874"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:25:44.299482"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:25:44.477281"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:25:44.647025"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:25:56.938099"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:25:57.093922"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:25:57.263231"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:25:57.422632"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:25:57.584550"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:25:57.749028"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:25:57.919989"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:25:58.077195"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:25:58.234234"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:25:58.390656"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:25:58.548036"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:25:58.716874"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:25:58.905745"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:25:59.059203"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:25:59.302788"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:26:03.877256"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:26:04.044084"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:26:04.192485"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:26:04.343921"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:26:04.489671"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:26:04.640905"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:26:04.799678"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:26:04.949959"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:26:05.119605"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:26:05.242047"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:26:05.403803"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:26:05.562207"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:26:05.720940"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:26:05.881418"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:26:06.053240"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:26:06.222854"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:26:06.389114"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:26:06.546091"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:26:06.708684"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:26:06.871847"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:26:07.036026"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:26:07.202678"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:26:07.367083"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:26:07.527015"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:26:07.681494"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:26:07.859076"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:26:08.026982"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:26:08.180252"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:26:08.325739"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:26:08.484465"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:26:08.653154"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:26:08.815774"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:26:08.980399"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:26:09.125631"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:26:09.266407"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:27:44.999635"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T06:27:45.293311"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:27:47.237321"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:27:48.107406"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "view_favorites",
+      "timestamp": "2025-07-23T06:27:48.351995"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:27:51.166259"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:27:51.325532"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:27:51.470993"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:27:51.623863"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:27:51.774020"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:27:51.933889"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:27:52.097561"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:27:52.240808"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:27:52.392516"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:27:52.552167"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:27:52.707505"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:27:52.865234"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:27:53.021786"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:27:53.169432"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:27:53.325805"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:27:53.484445"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:27:53.640698"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:27:53.799622"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:27:53.955047"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:27:54.119812"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:27:54.267273"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:27:54.422861"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:27:54.590716"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:27:54.743135"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:27:54.906692"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:27:55.077251"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:27:55.204577"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:28:48.670954"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:28:49.401714"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:28:52.755789"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:28:53.265110"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:28:53.506469"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:28:54.005580"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:28:57.707284"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:28:57.906641"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:29:11.652861"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:29:11.760813"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:29:13.988471"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:29:14.525546"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:29:46.059119"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:36:18.829658"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:36:19.185837"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:37:00.538238"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:37:00.695986"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:37:02.386447"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:37:02.838288"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:37:03.020324"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:37:07.885841"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:37:08.067879"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:37:08.201153"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:37:08.358723"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:37:08.514159"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:37:08.689005"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:37:08.913973"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:38:42.961325"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:38:43.142780"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:38:43.694652"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:38:43.903879"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:38:43.996348"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:38:44.261048"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:38:44.429659"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:38:48.687783"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:38:49.035166"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:42:16.131860"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:42:16.717045"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:42:19.479383"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:42:20.184564"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:42:20.723801"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:42:21.427730"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:42:22.510301"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:42:22.724897"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:42:25.406054"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:42:25.695844"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:42:25.821864"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:42:27.868429"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:42:28.449198"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:42:28.636256"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:42:31.410948"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:42:31.536072"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:42:33.240290"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:42:33.374387"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "favorite_question",
+      "timestamp": "2025-07-23T06:42:36.561121"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:42:36.988733"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:42:37.097585"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:43:11.611895"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:43:11.865431"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:43:12.084475"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:43:12.306906"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:43:12.539111"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:43:13.066306"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:43:13.251942"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:43:15.253354"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:43:15.452279"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:44:30.615610"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:44:31.273265"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:44:33.409421"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:44:33.773460"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:44:33.989059"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:44:35.754088"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:44:36.001695"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:44:36.707018"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:44:36.916597"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:44:37.207796"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:44:41.716781"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:44:41.925916"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:44:42.076206"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:44:42.246196"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:44:42.427699"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:44:42.937099"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:44:43.139245"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:44:43.292801"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:46:13.866053"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:46:14.484372"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:46:17.294213"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:46:19.243055"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:46:19.461296"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:46:23.522938"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:46:23.732928"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:46:23.907155"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:46:24.076033"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:46:24.274459"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:46:24.913988"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:46:25.268191"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:46:25.433651"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:46:25.609514"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:46:26.750846"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:46:26.929137"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:46:58.409339"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:46:58.563973"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:46:58.742725"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:46:58.924754"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:46:59.088323"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:46:59.251848"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:46:59.543587"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:47:00.891628"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:47:01.054644"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:47:03.809355"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:47:04.057864"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:47:05.258005"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:47:05.367094"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:49:16.127355"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:49:16.858220"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:49:19.381104"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:49:20.039855"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:49:20.213448"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:49:20.427461"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:49:20.857716"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:49:20.988076"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:49:24.754612"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:49:25.084321"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:49:25.257684"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:49:25.429444"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:49:26.124068"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:49:27.344243"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:49:27.460871"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:53:38.242430"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:53:38.632706"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:53:40.591857"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:53:40.639269"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:53:45.039681"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:53:45.075539"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:53:46.518363"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:53:46.556767"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:53:46.893817"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:53:46.934271"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:53:47.703284"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:53:47.733188"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:53:47.956841"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:53:50.831456"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:53:50.869866"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T06:53:51.679585"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:53:51.804248"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:54:07.492016"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:54:07.523306"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:54:17.823080"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:54:17.857454"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "generate_practice",
+      "timestamp": "2025-07-23T06:54:32.869515"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:54:59.614032"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:54:59.968599"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T06:55:03.657315"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T06:55:03.688706"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T07:06:26.221511"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T07:06:27.000497"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T07:06:28.232606"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T07:06:33.227803"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T07:06:35.138163"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T07:06:35.914564"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T07:06:36.083328"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T07:06:36.323454"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T07:06:38.388516"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T07:06:38.574120"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T07:06:42.987507"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "delete_favorite_question",
+      "timestamp": "2025-07-23T07:06:43.327243"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T07:06:43.598565"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "get_favorite_questions",
+      "timestamp": "2025-07-23T07:06:43.721534"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "logout",
+      "timestamp": "2025-07-23T07:06:56.808245"
     }
   ]
 }

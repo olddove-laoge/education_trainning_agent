@@ -1,0 +1,68 @@
+{
+  "favorites": [
+    {
+      "id": 1,
+      "user_id": 3,
+      "question_id": "7",
+      "question": "\u9898\u76ee 7",
+      "source": "practice",
+      "timestamp": "2025-07-23T06:29:46.068218"
+    },
+    {
+      "id": 3,
+      "user_id": 3,
+      "question_id": "3",
+      "question": "\u9898\u76ee 3",
+      "source": "practice",
+      "timestamp": "2025-07-23T06:37:02.845063"
+    },
+    {
+      "id": 5,
+      "user_id": 3,
+      "question_id": "7",
+      "question": "\u9898\u76ee 7",
+      "source": "practice",
+      "timestamp": "2025-07-23T06:37:07.895581"
+    },
+    {
+      "id": 6,
+      "user_id": 3,
+      "question_id": "7",
+      "question": "\u9898\u76ee 7",
+      "source": "practice",
+      "timestamp": "2025-07-23T06:37:08.089867"
+    },
+    {
+      "id": 7,
+      "user_id": 3,
+      "question_id": "7",
+      "question": "\u9898\u76ee 7",
+      "source": "practice",
+      "timestamp": "2025-07-23T06:37:08.216285"
+    },
+    {
+      "id": 8,
+      "user_id": 3,
+      "question_id": "7",
+      "question": "\u9898\u76ee 7",
+      "source": "practice",
+      "timestamp": "2025-07-23T06:37:08.367599"
+    },
+    {
+      "id": 9,
+      "user_id": 3,
+      "question_id": "7",
+      "question": "\u9898\u76ee 7",
+      "source": "practice",
+      "timestamp": "2025-07-23T06:37:08.532306"
+    },
+    {
+      "id": 10,
+      "user_id": 3,
+      "question_id": "7",
+      "question": "\u9898\u76ee 7",
+      "source": "practice",
+      "timestamp": "2025-07-23T06:37:08.694767"
+    }
+  ]
+}

@@ -6,8 +6,18 @@
 <h2>学生学习中心 - {{ name }}</h2>
 
 <div class="student-actions">
-    <a href="{{ url_for('document_manager') }}" class="btn">管理文档</a>
+    <button onclick="window.location.href='{{ url_for('document_manager') }}'" class="btn">管理文档</button>
+    <button onclick="showFavorites()" class="btn">我的收藏</button>
 </div>
+
+<style>
+    .student-actions .btn {
+        padding: 8px 16px;
+        margin: 0 5px;
+        font-size: 14px;
+        min-width: 100px;
+    }
+</style>
 
 <div class="document-info">
     <h3>当前使用的文档</h3>
@@ -56,6 +66,7 @@
         <div id="answerSection" style="display:none;">
             <textarea id="studentAnswer" placeholder="在此输入你的答案"></textarea>
             <button onclick="submitAnswer()" id="submitButton">提交答案</button>
+            <button onclick="favoriteCurrentQuestion()" class="btn-favorite">收藏题目</button>
         </div>
         
         <div id="submitStatus" class="status-message" style="display:none;">
@@ -69,6 +80,13 @@
         <h3>问题历史</h3>
         <div id="questionHistory">
             <p>加载问题历史中...</p>
+        </div>
+    </section>
+
+    <section class="card" id="favoritesSection" style="display:none;">
+        <h3>我的收藏</h3>
+        <div id="favoritesContainer">
+            <p>加载收藏列表中...</p>
         </div>
     </section>
 </div>
@@ -94,8 +112,8 @@
     .question-item {
         border-bottom: 1px solid #eee;
         padding: 10px 0;
-        cursor: pointer;
         transition: background-color 0.2s;
+        position: relative;
     }
     
     .question-item:hover {
@@ -139,10 +157,54 @@
         background-color: #f8f9fc;
         border: 1px solid #e1e4e8;
     }
+
+    .btn-favorite {
+        background-color: #f8f9fc;
+        color: #4e73df;
+        border: 1px solid #4e73df;
+        margin-left: 10px;
+    }
+
+    .btn-favorite:hover {
+        background-color: #e9ecef;
+    }
+
+    .favorite-item {
+        border-bottom: 1px solid #eee;
+        padding: 10px;
+        margin-bottom: 10px;
+        background-color: #f8f9fc;
+        border-radius: 5px;
+    }
+
+    .favorite-item .question {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .favorite-item .source {
+        color: #6c757d;
+        font-size: 0.9em;
+        margin-bottom: 5px;
+    }
+
+    .btn-delete {
+        background-color: #f8f9fc;
+        color: #e74a3b;
+        border: 1px solid #e74a3b;
+        padding: 3px 8px;
+        font-size: 0.8em;
+        border-radius: 3px;
+    }
+
+    .btn-delete:hover {
+        background-color: #f5e6e5;
+    }
 </style>
 
 <script>
     let currentQuestion = null;
+    let currentQuestionId = null;
     
     // 页面加载时获取问题历史
     document.addEventListener('DOMContentLoaded', async () => {
@@ -154,11 +216,14 @@
                 let html = '';
                 data.forEach(q => {
                     html += `
-                    <div class="question-item" onclick="toggleAnswer(${q.id})">
-                        <div class="question">${q.question}</div>
-                        <div class="answer">${q.answer.substring(0, 100)}...</div>
-                        <small>${new Date(q.timestamp).toLocaleString()}</small>
-                        <div class="full-answer" id="full-answer-${q.id}">${q.answer}</div>
+                    <div class="question-item">
+                        <div onclick="toggleAnswer(${q.id})">
+                            <div class="question">${q.question}</div>
+                            <div class="answer">${q.answer.substring(0, 100)}...</div>
+                            <small>${new Date(q.timestamp).toLocaleString()}</small>
+                            <div class="full-answer" id="full-answer-${q.id}">${q.answer}</div>
+                        </div>
+                        <button onclick="favoriteQuestion('${q.id}', 'practice')" class="btn-favorite">收藏</button>
                     </div>`;
                 });
                 document.getElementById('questionHistory').innerHTML = html;
@@ -212,12 +277,14 @@
             const questionHistory = document.getElementById('questionHistory');
             const newQuestion = document.createElement('div');
             newQuestion.className = 'question-item';
-            newQuestion.onclick = () => toggleAnswer('new');
             newQuestion.innerHTML = `
-                <div class="question">${question}</div>
-                <div class="answer">${data.answer.substring(0, 100)}...</div>
-                <small>${new Date().toLocaleString()}</small>
-                <div class="full-answer" id="full-answer-new" style="display:block">${data.answer}</div>
+                <div onclick="toggleAnswer('new')">
+                    <div class="question">${question}</div>
+                    <div class="answer">${data.answer.substring(0, 100)}...</div>
+                    <small>${new Date().toLocaleString()}</small>
+                    <div class="full-answer" id="full-answer-new" style="display:block">${data.answer}</div>
+                </div>
+                <button onclick="favoriteQuestion('new', 'practice')" class="btn-favorite">收藏</button>
             `;
             questionHistory.insertBefore(newQuestion, questionHistory.firstChild);
             
@@ -256,6 +323,7 @@
             document.getElementById('answerSection').style.display = 'block';
             document.getElementById('analysisOutput').innerHTML = '';
             currentQuestion = data.question;
+            currentQuestionId = Date.now().toString(); // 生成临时ID
         } catch (error) {
             console.error('生成练习题失败:', error);
             document.getElementById('practiceOutput').innerHTML = 
@@ -264,6 +332,12 @@
             // 恢复按钮状态
             button.disabled = false;
             document.getElementById('practiceStatus').style.display = 'none';
+        }
+    }
+
+    function favoriteCurrentQuestion() {
+        if (currentQuestion && currentQuestionId) {
+            favoriteQuestion(currentQuestionId, 'practice');
         }
     }
     
@@ -301,6 +375,10 @@
             button.disabled = false;
             document.getElementById('submitStatus').style.display = 'none';
         }
+    }
+
+    function showFavorites() {
+        document.getElementById('favoritesSection').style.display = 'block';
     }
 </script>
 {% endblock %}

@@ -3,7 +3,8 @@ import os
 from datetime import datetime
 from config import (
     USERS_FILE, COURSES_FILE, EXERCISES_FILE, 
-    USAGE_FILE, QUESTIONS_FILE, DOCUMENTS_FILE
+    USAGE_FILE, QUESTIONS_FILE, DOCUMENTS_FILE,
+    FAVORITES_FILE
 )
 def init_data_files():
     """初始化数据文件"""
@@ -13,7 +14,8 @@ def init_data_files():
         EXERCISES_FILE: {"exercises": []},
         USAGE_FILE: {"teacher_usage": [], "student_usage": []},
         QUESTIONS_FILE: {"questions": []},
-        DOCUMENTS_FILE: {"documents": []}  # 新增文档配置文件
+        DOCUMENTS_FILE: {"documents": []},
+        FAVORITES_FILE: {"favorites": []}
     }
     
     for file, default_data in data_files.items():
@@ -184,3 +186,83 @@ def save_user_documents(user_id, selected_docs):
         })
     
     update_document_settings(doc_settings)
+
+def add_favorite_question(user_id, question_id, source, question_text=None):
+    """添加收藏题目"""
+    favorites_data = read_data(FAVORITES_FILE)
+    new_favorite = {
+        "id": len(favorites_data["favorites"]) + 1,
+        "user_id": user_id,
+        "question_id": question_id,
+        "question": question_text or f"题目 {question_id}",
+        "source": source,  # "practice"或"exam"
+        "timestamp": datetime.now().isoformat()
+    }
+    favorites_data["favorites"].append(new_favorite)
+    write_data(FAVORITES_FILE, favorites_data)
+    return new_favorite
+
+def get_favorite_questions(user_id):
+    """获取用户的收藏题目列表"""
+    favorites_data = read_data(FAVORITES_FILE)
+    questions_data = read_data(QUESTIONS_FILE)
+    
+    favorites = []
+    for fav in favorites_data["favorites"]:
+        if fav["user_id"] == user_id:
+            # 查找对应的完整问题信息
+            question_info = next(
+                (q for q in questions_data["questions"] 
+                 if str(q["id"]) == str(fav["question_id"])),
+                None
+            )
+            
+            if question_info:
+                favorite = {
+                    "id": fav["id"],
+                    "question_id": fav["question_id"],
+                    "question": question_info["question"],
+                    "answer": question_info["answer"],
+                    "source": fav["source"],
+                    "timestamp": fav["timestamp"]
+                }
+            else:
+                # 如果找不到问题信息，使用收藏中的基本信息
+                favorite = {
+                    "id": fav["id"],
+                    "question_id": fav["question_id"],
+                    "question": fav.get("question", "未知题目"),
+                    "answer": "题目信息不可用",
+                    "source": fav["source"],
+                    "timestamp": fav["timestamp"]
+                }
+            favorites.append(favorite)
+    
+    return favorites
+
+def delete_favorite_question(user_id, favorite_id):
+    """删除收藏题目"""
+    try:
+        favorites_data = read_data(FAVORITES_FILE)
+        original_count = len(favorites_data["favorites"])
+        
+        # 确保favorite_id类型一致
+        favorite_id = int(favorite_id) if isinstance(favorite_id, str) else favorite_id
+        
+        favorites_data["favorites"] = [
+            fav for fav in favorites_data["favorites"]
+            if not (fav["user_id"] == user_id and fav["id"] == favorite_id)
+        ]
+        
+        write_data(FAVORITES_FILE, favorites_data)
+        
+        deleted_count = original_count - len(favorites_data["favorites"])
+        return {
+            "status": "success" if deleted_count > 0 else "not_found",
+            "deleted_count": deleted_count
+        }
+    except Exception as e:
+        return {
+            "status": "error",
+            "error": str(e)
+        }

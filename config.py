@@ -16,7 +16,8 @@ COURSES_FILE = os.path.join(DATA_PATH, "courses.json")
 EXERCISES_FILE = os.path.join(DATA_PATH, "exercises.json")
 USAGE_FILE = os.path.join(DATA_PATH, "usage.json")
 QUESTIONS_FILE = os.path.join(DATA_PATH, "questions.json")
-DOCUMENTS_FILE = os.path.join(DATA_PATH, "documents.json")  # 新增文档配置文件
+DOCUMENTS_FILE = os.path.join(DATA_PATH, "documents.json")
+FAVORITES_FILE = os.path.join(DATA_PATH, "favorites.json")  # 收藏题目数据文件
 
 # 知识库路径
 KNOWLEDGE_BASE_PATH = os.path.join(BASE_DIR, "knowledge_base")
