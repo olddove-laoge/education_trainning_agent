@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}首页{% endblock %}
+
+{% block content %}
+<div class="hero">
+    <h2>智能教学实训解决方案</h2>
+    <p>基于DeepSeek大模型的教学助手，赋能教师备课、学生学习与管理决策</p>
+    <a href="{{ url_for('login') }}" class="btn">开始使用</a>
+</div>
+
+<div class="features">
+    <div class="feature">
+        <h3>教师智能备课</h3>
+        <p>一键生成教学大纲、课件和练习题</p>
+    </div>
+    <div class="feature">
+        <h3>学生个性化学习</h3>
+        <p>24小时答疑、练习与反馈</p>
+    </div>
+    <div class="feature">
+        <h3>智能学情分析</h3>
+        <p>实时掌握教学效果与学习进度</p>
+    </div>
+</div>
+{% endblock %}

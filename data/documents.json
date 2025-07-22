@@ -1,0 +1,18 @@
+{
+  "documents": [
+    {
+      "user_id": 2,
+      "selected_docs": [
+        "cp07-\u6837\u7ae0\u793a\u4f8b-TensorFlow.js\u5e94\u7528\u5f00\u53d1.docx",
+        "cp08-\u6837\u7ae0\u793a\u4f8b-TensorFlow Lite.docx"
+      ]
+    },
+    {
+      "user_id": 3,
+      "selected_docs": [
+        "cp07-\u6837\u7ae0\u793a\u4f8b-TensorFlow.js\u5e94\u7528\u5f00\u53d1.docx",
+        "cp08-\u6837\u7ae0\u793a\u4f8b-TensorFlow Lite.docx"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{% extends "base.html" %}
+
+{% block title %}学生学习中心{% endblock %}
+
+{% block content %}
+<h2>学生学习中心 - {{ name }}</h2>
+
+<div class="student-actions">
+    <a href="{{ url_for('document_manager') }}" class="btn">管理文档</a>
+</div>
+
+<div class="document-info">
+    <h3>当前使用的文档</h3>
+    {% if selected_docs %}
+        <ul class="document-list">
+            {% for doc in selected_docs %}
+                <li>{{ doc }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>尚未选择任何文档</p>
+    {% endif %}
+</div>
+
+<div class="dashboard-sections">
+    <section class="card">
+        <h3>智能问答</h3>
+        <div class="form-group">
+            <input type="text" id="questionInput" placeholder="输入你的问题">
+            <button onclick="askQuestion()" id="askButton">提问</button>
+        </div>
+        <div id="answerStatus" class="status-message" style="display:none;">
+            <div class="loader"></div>
+            <span>正在思考中，请稍候...</span>
+        </div>
+        <div id="answerOutput" class="output-area"></div>
+    </section>
+
+    <section class="card">
+        <h3>练习系统</h3>
+        <div class="practice-options">
+            <label>难度级别:</label>
+            <select id="practiceLevel">
+                <option value="beginner">初级</option>
+                <option value="intermediate">中级</option>
+                <option value="advanced">高级</option>
+            </select>
+            <button onclick="generatePractice()" id="practiceButton">生成练习题</button>
+        </div>
+        <div id="practiceStatus" class="status-message" style="display:none;">
+            <div class="loader"></div>
+            <span>正在生成练习题，请稍候...</span>
+        </div>
+        <div id="practiceOutput" class="output-area"></div>
+        
+        <div id="answerSection" style="display:none;">
+            <textarea id="studentAnswer" placeholder="在此输入你的答案"></textarea>
+            <button onclick="submitAnswer()" id="submitButton">提交答案</button>
+        </div>
+        
+        <div id="submitStatus" class="status-message" style="display:none;">
+            <div class="loader"></div>
+            <span>正在分析答案，请稍候...</span>
+        </div>
+        <div id="analysisOutput" class="output-area"></div>
+    </section>
+    
+    <section class="card">
+        <h3>问题历史</h3>
+        <div id="questionHistory">
+            <p>加载问题历史中...</p>
+        </div>
+    </section>
+</div>
+
+<style>
+    .loader {
+        border: 4px solid #f3f3f3;
+        border-top: 4px solid #4e73df;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        animation: spin 1s linear infinite;
+        display: inline-block;
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+    
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+    
+    .question-item {
+        border-bottom: 1px solid #eee;
+        padding: 10px 0;
+        cursor: pointer;
+        transition: background-color 0.2s;
+    }
+    
+    .question-item:hover {
+        background-color: #f9f9f9;
+    }
+    
+    .question, .answer {
+        margin: 5px 0;
+    }
+    
+    .question {
+        font-weight: bold;
+        color: #333;
+    }
+    
+    .answer {
+        color: #666;
+        max-height: 100px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }
+    
+    .full-answer {
+        display: none;
+        background-color: #f8f9fc;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 10px;
+        border: 1px solid #eee;
+    }
+    
+    .status-message {
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        background-color: #f8f9fc;
+        border: 1px solid #e1e4e8;
+    }
+</style>
+
+<script>
+    let currentQuestion = null;
+    
+    // 页面加载时获取问题历史
+    document.addEventListener('DOMContentLoaded', async () => {
+        try {
+            const response = await fetch('/student/questions');
+            const data = await response.json();
+            
+            if (data.length > 0) {
+                let html = '';
+                data.forEach(q => {
+                    html += `
+                    <div class="question-item" onclick="toggleAnswer(${q.id})">
+                        <div class="question">${q.question}</div>
+                        <div class="answer">${q.answer.substring(0, 100)}...</div>
+                        <small>${new Date(q.timestamp).toLocaleString()}</small>
+                        <div class="full-answer" id="full-answer-${q.id}">${q.answer}</div>
+                    </div>`;
+                });
+                document.getElementById('questionHistory').innerHTML = html;
+            } else {
+                document.getElementById('questionHistory').innerHTML = '<p>暂无提问记录</p>';
+            }
+        } catch (error) {
+            console.error('获取问题历史失败:', error);
+            document.getElementById('questionHistory').innerHTML = 
+                '<p class="error">加载问题历史失败</p>';
+        }
+    });
+    
+    function toggleAnswer(id) {
+        const fullAnswer = document.getElementById(`full-answer-${id}`);
+        if (fullAnswer.style.display === 'block') {
+            fullAnswer.style.display = 'none';
+        } else {
+            fullAnswer.style.display = 'block';
+        }
+    }
+    
+    async function askQuestion() {
+        const question = document.getElementById('questionInput').value;
+        if (!question) {
+            alert('请输入问题');
+            return;
+        }
+        
+        // 禁用按钮并显示加载状态
+        const askButton = document.getElementById('askButton');
+        askButton.disabled = true;
+        document.getElementById('answerStatus').style.display = 'flex';
+        document.getElementById('answerOutput').innerHTML = '';
+        
+        try {
+            const response = await fetch('/student/ask', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({question})
+            });
+            
+            if (!response.ok) {
+                throw new Error(`请求失败: ${response.status}`);
+            }
+            
+            const data = await response.json();
+            document.getElementById('answerOutput').innerHTML = data.answer;
+            
+            // 添加到问题历史
+            const questionHistory = document.getElementById('questionHistory');
+            const newQuestion = document.createElement('div');
+            newQuestion.className = 'question-item';
+            newQuestion.onclick = () => toggleAnswer('new');
+            newQuestion.innerHTML = `
+                <div class="question">${question}</div>
+                <div class="answer">${data.answer.substring(0, 100)}...</div>
+                <small>${new Date().toLocaleString()}</small>
+                <div class="full-answer" id="full-answer-new" style="display:block">${data.answer}</div>
+            `;
+            questionHistory.insertBefore(newQuestion, questionHistory.firstChild);
+            
+            // 清空输入框
+            document.getElementById('questionInput').value = '';
+            
+        } catch (error) {
+            console.error('提问出错:', error);
+            document.getElementById('answerOutput').innerHTML = 
+                `<div class="error">提问失败: ${error.message}</div>`;
+        } finally {
+            // 恢复按钮状态
+            askButton.disabled = false;
+            document.getElementById('answerStatus').style.display = 'none';
+        }
+    }
+    
+    async function generatePractice() {
+        const level = document.getElementById('practiceLevel').value;
+        
+        // 显示加载状态
+        const button = document.getElementById('practiceButton');
+        button.disabled = true;
+        document.getElementById('practiceStatus').style.display = 'flex';
+        document.getElementById('practiceOutput').innerHTML = '';
+        
+        try {
+            const response = await fetch('/student/generate_practice', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({level})
+            });
+            
+            const data = await response.json();
+            document.getElementById('practiceOutput').innerHTML = data.question;
+            document.getElementById('answerSection').style.display = 'block';
+            document.getElementById('analysisOutput').innerHTML = '';
+            currentQuestion = data.question;
+        } catch (error) {
+            console.error('生成练习题失败:', error);
+            document.getElementById('practiceOutput').innerHTML = 
+                `<div class="error">生成失败: ${error.message}</div>`;
+        } finally {
+            // 恢复按钮状态
+            button.disabled = false;
+            document.getElementById('practiceStatus').style.display = 'none';
+        }
+    }
+    
+    async function submitAnswer() {
+        const answer = document.getElementById('studentAnswer').value;
+        if (!answer) {
+            alert('请输入答案');
+            return;
+        }
+        
+        // 显示加载状态
+        const button = document.getElementById('submitButton');
+        button.disabled = true;
+        document.getElementById('submitStatus').style.display = 'flex';
+        document.getElementById('analysisOutput').innerHTML = '';
+        
+        try {
+            const response = await fetch('/student/submit_answer', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({
+                    question: currentQuestion,
+                    answer: answer
+                })
+            });
+            
+            const data = await response.json();
+            document.getElementById('analysisOutput').innerHTML = data.analysis;
+        } catch (error) {
+            console.error('提交答案失败:', error);
+            document.getElementById('analysisOutput').innerHTML = 
+                `<div class="error">分析失败: ${error.message}</div>`;
+        } finally {
+            // 恢复按钮状态
+            button.disabled = false;
+            document.getElementById('submitStatus').style.display = 'none';
+        }
+    }
+</script>
+{% endblock %}

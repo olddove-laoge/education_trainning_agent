@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}登录{% endblock %}
+
+{% block content %}
+<div class="login-container">
+    <h2>登录系统</h2>
+    {% if error %}
+        <p class="error">{{ error }}</p>
+    {% endif %}
+    <form action="{{ url_for('login') }}" method="post">
+        <div class="form-group">
+            <label for="username">用户名</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div class="form-group">
+            <label for="password">密码</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit" class="btn">登录</button>
+    </form>
+    <div class="demo-accounts">
+        <h4>演示账号:</h4>
+        <p>教师: teacher1 / teacher123</p>
+        <p>学生: student1 / student123</p>
+        <p>管理员: admin / admin123</p>
+    </div>
+</div>
+{% endblock %}

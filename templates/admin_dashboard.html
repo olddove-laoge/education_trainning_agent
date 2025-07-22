@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block title %}管理控制台{% endblock %}
+
+{% block content %}
+<h2>管理控制台 - {{ name }}</h2>
+
+<div class="dashboard-sections">
+    <section class="card">
+        <h3>系统概览</h3>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h4>教师今日活跃</h4>
+                <p class="stat-value">{{ stats.teacher.today_count }}</p>
+                <p>热门操作: {{ stats.teacher.top_actions }}</p>
+            </div>
+            <div class="stat-card">
+                <h4>学生今日活跃</h4>
+                <p class="stat-value">{{ stats.student.today_count }}</p>
+                <p>热门操作: {{ stats.student.top_actions }}</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="card">
+        <h3>用户管理</h3>
+        <table class="user-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>用户名</th>
+                    <th>角色</th>
+                    <th>创建时间</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for user in users %}
+                <tr>
+                    <td>{{ user.id }}</td>
+                    <td>{{ user.username }}</td>
+                    <td>{{ user.role }}</td>
+                    <td>{{ user.created_at[:10] }}</td>
+                    <td>
+                        <button class="btn-small">编辑</button>
+                        <button class="btn-small btn-danger">删除</button>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <div class="form-group">
+            <button class="btn" onclick="addUser()">添加用户</button>
+        </div>
+    </section>
+</div>
+
+<script>
+    function addUser() {
+        alert('添加用户功能将在后续版本中实现');
+    }
+</script>
+{% endblock %}

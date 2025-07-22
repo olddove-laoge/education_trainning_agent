@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin",
+      "name": "\u7cfb\u7edf\u7ba1\u7406\u5458",
+      "created_at": "2025-07-23T00:45:40.027967"
+    },
+    {
+      "id": 2,
+      "username": "teacher1",
+      "password": "teacher123",
+      "role": "teacher",
+      "name": "\u5f20\u8001\u5e08",
+      "created_at": "2025-07-23T00:45:40.043885"
+    },
+    {
+      "id": 3,
+      "username": "student1",
+      "password": "student123",
+      "role": "student",
+      "name": "\u674e\u540c\u5b66",
+      "created_at": "2025-07-23T00:45:40.043885"
+    }
+  ]
+}

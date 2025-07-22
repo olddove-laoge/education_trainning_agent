@@ -1,0 +1,504 @@
+{
+  "teacher_usage": [
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "login",
+      "timestamp": "2025-07-23T00:50:49.672395"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T00:50:49.697422"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T00:59:50.320922"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "generate_content",
+      "timestamp": "2025-07-23T01:00:14.623917"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "generate_content",
+      "timestamp": "2025-07-23T01:00:15.339055"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "save_course",
+      "timestamp": "2025-07-23T01:01:07.498439"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "save_course",
+      "timestamp": "2025-07-23T01:01:09.607202"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "generate_exam",
+      "timestamp": "2025-07-23T01:02:06.183512"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "login",
+      "timestamp": "2025-07-23T01:15:30.909422"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T01:15:30.931632"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "logout",
+      "timestamp": "2025-07-23T01:16:21.512471"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "login",
+      "timestamp": "2025-07-23T01:17:47.507238"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T01:17:47.569805"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T01:28:10.410200"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "logout",
+      "timestamp": "2025-07-23T01:28:39.996842"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "login",
+      "timestamp": "2025-07-23T01:30:06.667289"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T01:30:06.681955"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "generate_exam",
+      "timestamp": "2025-07-23T01:30:33.354756"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "generate_exam",
+      "timestamp": "2025-07-23T01:30:49.233382"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "generate_exam",
+      "timestamp": "2025-07-23T01:30:55.390957"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "generate_exam",
+      "timestamp": "2025-07-23T01:30:56.306085"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "generate_exam",
+      "timestamp": "2025-07-23T01:31:05.675731"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "generate_exam",
+      "timestamp": "2025-07-23T01:31:05.833425"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "generate_exam",
+      "timestamp": "2025-07-23T01:31:22.732842"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "generate_exam",
+      "timestamp": "2025-07-23T01:31:32.732809"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "generate_exam",
+      "timestamp": "2025-07-23T01:31:40.598939"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "generate_exam",
+      "timestamp": "2025-07-23T01:31:44.013870"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "generate_content",
+      "timestamp": "2025-07-23T01:32:26.900012"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "login",
+      "timestamp": "2025-07-23T01:45:58.336373"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T01:45:58.365289"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "generate_exam",
+      "timestamp": "2025-07-23T01:46:36.826158"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "generate_content",
+      "timestamp": "2025-07-23T01:46:38.342608"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "login",
+      "timestamp": "2025-07-23T01:47:52.850323"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T01:47:52.874552"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "generate_content",
+      "timestamp": "2025-07-23T01:48:13.072492"
+    },
+    {
+      "user_id": 2,
+      "role": "teacher",
+      "action": "save_course",
+      "timestamp": "2025-07-23T01:48:59.520950"
+    }
+  ],
+  "student_usage": [
+    {
+      "user_id": 1,
+      "role": "admin",
+      "action": "login",
+      "timestamp": "2025-07-23T00:46:02.990043"
+    },
+    {
+      "user_id": 1,
+      "role": "admin",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T00:46:03.011041"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "login",
+      "timestamp": "2025-07-23T00:46:22.671721"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T00:46:22.700949"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "ask_question",
+      "timestamp": "2025-07-23T00:46:39.880852"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "generate_practice",
+      "timestamp": "2025-07-23T00:46:42.556532"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "generate_practice",
+      "timestamp": "2025-07-23T00:46:47.922017"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "generate_practice",
+      "timestamp": "2025-07-23T00:46:48.673527"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "ask_question",
+      "timestamp": "2025-07-23T00:46:50.267446"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "ask_question",
+      "timestamp": "2025-07-23T00:47:06.883653"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "ask_question",
+      "timestamp": "2025-07-23T00:47:07.108228"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "ask_question",
+      "timestamp": "2025-07-23T00:47:17.284620"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "ask_question",
+      "timestamp": "2025-07-23T00:47:36.835062"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "ask_question",
+      "timestamp": "2025-07-23T00:47:39.599325"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "ask_question",
+      "timestamp": "2025-07-23T00:47:40.310864"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "generate_practice",
+      "timestamp": "2025-07-23T00:47:48.000744"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "generate_practice",
+      "timestamp": "2025-07-23T00:47:52.455368"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T00:48:31.928030"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "generate_practice",
+      "timestamp": "2025-07-23T00:48:36.412774"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "ask_question",
+      "timestamp": "2025-07-23T00:49:37.976662"
+    },
+    {
+      "user_id": 1,
+      "role": "admin",
+      "action": "login",
+      "timestamp": "2025-07-23T01:02:34.363960"
+    },
+    {
+      "user_id": 1,
+      "role": "admin",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T01:02:34.387495"
+    },
+    {
+      "user_id": 1,
+      "role": "admin",
+      "action": "logout",
+      "timestamp": "2025-07-23T01:02:55.152715"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "login",
+      "timestamp": "2025-07-23T01:12:23.396509"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T01:12:23.422832"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "ask_question",
+      "timestamp": "2025-07-23T01:13:01.507556"
+    },
+    {
+      "user_id": 1,
+      "role": "admin",
+      "action": "login",
+      "timestamp": "2025-07-23T01:16:26.501559"
+    },
+    {
+      "user_id": 1,
+      "role": "admin",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T01:16:26.513396"
+    },
+    {
+      "user_id": 1,
+      "role": "admin",
+      "action": "logout",
+      "timestamp": "2025-07-23T01:16:46.411385"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "login",
+      "timestamp": "2025-07-23T01:17:02.258761"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T01:17:02.271299"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "logout",
+      "timestamp": "2025-07-23T01:17:35.470586"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "login",
+      "timestamp": "2025-07-23T01:28:43.966860"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T01:28:43.985541"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "login",
+      "timestamp": "2025-07-23T01:32:51.057488"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T01:32:51.079834"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "ask_question",
+      "timestamp": "2025-07-23T01:32:55.585591"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "generate_practice",
+      "timestamp": "2025-07-23T01:33:09.366563"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "submit_answer",
+      "timestamp": "2025-07-23T01:34:56.171776"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "ask_question",
+      "timestamp": "2025-07-23T01:35:17.922399"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "submit_answer",
+      "timestamp": "2025-07-23T01:35:25.360725"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "submit_answer",
+      "timestamp": "2025-07-23T01:35:25.990947"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "ask_question",
+      "timestamp": "2025-07-23T01:35:51.140078"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "ask_question",
+      "timestamp": "2025-07-23T01:36:50.149176"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "login",
+      "timestamp": "2025-07-23T01:46:58.178031"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "access_dashboard",
+      "timestamp": "2025-07-23T01:46:58.205158"
+    },
+    {
+      "user_id": 3,
+      "role": "student",
+      "action": "generate_practice",
+      "timestamp": "2025-07-23T01:47:05.387748"
+    }
+  ]
+}

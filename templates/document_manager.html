@@ -1,0 +1,114 @@
+{% extends "base.html" %}
+
+{% block title %}文档管理{% endblock %}
+
+{% block content %}
+<div class="document-manager">
+    <h2>文档管理 - {{ name }}</h2>
+    <p>请选择您希望用于智能问答和内容生成的文档：</p>
+    
+    <div class="document-list">
+        {% for doc in all_docs %}
+        <div class="document-item">
+            <input type="checkbox" id="doc-{{ loop.index }}" 
+                   name="documents" value="{{ doc }}"
+                   {% if doc in selected_docs %}checked{% endif %}>
+            <label for="doc-{{ loop.index }}">{{ doc }}</label>
+        </div>
+        {% endfor %}
+    </div>
+    
+    <button id="saveDocuments" class="btn">保存选择</button>
+    <div id="saveStatus" class="status-message"></div>
+</div>
+
+<script>
+    document.getElementById('saveDocuments').addEventListener('click', async () => {
+        const checkboxes = document.querySelectorAll('input[name="documents"]:checked');
+        const selectedDocs = Array.from(checkboxes).map(cb => cb.value);
+        
+        const saveBtn = document.getElementById('saveDocuments');
+        saveBtn.disabled = true;
+        saveBtn.textContent = '保存中...';
+        
+        try {
+            const response = await fetch('/update_documents', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({selected_docs: selectedDocs})
+            });
+            
+            const data = await response.json();
+            if (data.status === 'success') {
+                document.getElementById('saveStatus').textContent = '文档选择已保存！';
+                document.getElementById('saveStatus').className = 'status-message success';
+                
+                // 3秒后返回上一页
+                setTimeout(() => {
+                    window.history.back();
+                }, 1500);
+            }
+        } catch (error) {
+            document.getElementById('saveStatus').textContent = '保存失败，请重试';
+            document.getElementById('saveStatus').className = 'status-message error';
+            console.error('保存文档选择失败:', error);
+        } finally {
+            saveBtn.disabled = false;
+            saveBtn.textContent = '保存选择';
+        }
+    });
+</script>
+
+<style>
+    .document-manager {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, .15);
+    }
+    
+    .document-list {
+        margin: 20px 0;
+        max-height: 400px;
+        overflow-y: auto;
+        border: 1px solid #eee;
+        border-radius: 4px;
+        padding: 15px;
+    }
+    
+    .document-item {
+        padding: 10px;
+        border-bottom: 1px solid #f0f0f0;
+    }
+    
+    .document-item:last-child {
+        border-bottom: none;
+    }
+    
+    .document-item label {
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    
+    .status-message {
+        margin-top: 15px;
+        padding: 10px;
+        border-radius: 4px;
+        text-align: center;
+    }
+    
+    .success {
+        background-color: #d4edda;
+        color: #155724;
+        border: 1px solid #c3e6cb;
+    }
+    
+    .error {
+        background-color: #f8d7da;
+        color: #721c24;
+        border: 1px solid #f5c6cb;
+    }
+</style>
+{% endblock %}
